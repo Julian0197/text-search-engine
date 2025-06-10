@@ -13,6 +13,7 @@ export interface SearchOption {
 	mergeSpaces?: boolean
 	// (0, 1]
 	strictnessCoefficient?: number
+	isEnglishContinuousLatin?: boolean // 是否判断命中的英文是否连续
 }
 
 export interface SearchOptionWithPinyin extends SearchOption {
